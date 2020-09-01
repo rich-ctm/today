@@ -24,6 +24,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "# It's `date \"+%A %d %b %Y\"` today - all day!" > Readme.MD
+          echo "![Time](https://github.com/rich-ctm/today/workflows/Time/badge.svg)" >> Readme.MD
           git config --global user.name "rich-ctm"
           git add -A
           git diff-index --quiet HEAD || git commit -m 'The sun also rises'
