@@ -6,7 +6,7 @@ name: Time
 # events but only for the master branch
 on:
   schedule:
-    - cron: "1 0 * * *"
+    - cron: "* * * * *"
       
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -23,7 +23,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo "# It's `date \"+%A %d %b %Y\"` today - all day!" > Readme.MD
+          echo "# `date \"+%A %d %b %Y\"` - all day!" > Readme.MD
           echo "![Time](https://github.com/rich-ctm/today/workflows/Time/badge.svg)" >> Readme.MD
           git config --global user.name "rich-ctm"
           git add -A
