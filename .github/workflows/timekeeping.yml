@@ -23,7 +23,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo "It's `date \"+%H:%M on %A %d %b %Y\"` today - all day!" > Readme.MD
+          echo "# It's `date \"+%A %d %b %Y\"` today - all day!" > Readme.MD
           git config --global user.name "rich-ctm"
           git add -A
           git diff-index --quiet HEAD || git commit -m 'The sun also rises'
