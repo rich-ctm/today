@@ -1,2 +1,2 @@
-# Friday 11 Sep 2020 - all day!
+# Saturday 12 Sep 2020 - all day!
 ![Time](https://github.com/rich-ctm/today/workflows/Time/badge.svg)
