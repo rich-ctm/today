@@ -1,2 +1,2 @@
-# Friday 08 Jan 2021 - all day!
+# Saturday 09 Jan 2021 - all day!
 ![Time](https://github.com/rich-ctm/today/workflows/Time/badge.svg)
